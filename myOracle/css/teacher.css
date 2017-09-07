@@ -1,0 +1,72 @@
+#home {
+    background: url("../images/header/home.png") no-repeat;
+    background-position: center center;
+    background-size: 40%;
+}
+
+.banner {
+    height: 2rem;
+    background: url('../images/teachers/banner.jpg') no-repeat;
+    background-size: cover;
+}
+
+.teacherList li {
+    height: 3.48rem;
+    width: 7.02rem;
+    border-bottom: 0.03rem dashed #ebebed;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.teacherList li:last-child {
+    border-bottom: 0;
+}
+
+.teacherList li .teacherPic {
+    width: 2rem;
+    height: 3rem;
+    margin: 0.24rem;
+    margin-left: 0;
+}
+
+.pic1 {
+    background: url('../images/teachers/pic.jpg') no-repeat;
+    background-size: cover;
+}
+
+.pic2 {
+    background: url('../images/teachers/20161216073158.jpg') no-repeat;
+    background-size: cover;
+}
+
+.pic3 {
+    background: url('../images/teachers/20161216073522.jpg') no-repeat;
+    background-size: cover;
+}
+
+.pic4 {
+    background: url('../images/teachers/20161216073733.jpg') no-repeat;
+    background-size: cover;
+}
+
+.teacherList li .teacherDisc {
+    margin-top: 0.24rem;
+    width: 4.78rem;
+    height: 3rem;
+}
+
+.teacherName {
+    font-size: 0.36rem;
+    margin: 0.2rem 0;
+}
+
+.teacherName span {
+    font-size: 0.3rem;
+}
+
+.discTxt {
+    font-size: 0.23rem;
+    line-height: 0.4rem;
+    color: #bdbdbd;
+}

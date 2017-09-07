@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- 移动端适配 -->
+    <script>
+        var deviceWidth = document.documentElement.clientWidth;
+        document.documentElement.style.fontSize = deviceWidth / 7.5 + 'px';
+        //设计稿基于iphone6，宽度为750px，body的width为750px / 100 = 7.5rem
+        //1px=0.01
+    </script>
+    <script src="../oracle/js/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/teacher.css">
+    <link rel="stylesheet" href="./css/header_footer.css">
+</head>
+
+<body>
+
+    <header></header>
+    <nav>
+        <a href="./index.html" class="homeBtn">
+            <div class="home" id="home"></div>
+        </a>
+        <span><a href="./job.html">就业</a></span>
+        <span><a href="./course.html">课程</a></span>
+        <span class="navActive"><a href="./Teachers.html">师资</a></span>
+        <span><a href="./environment.html">环境</a></span>
+        <span><a href="./about.html">我们</a></span>
+    </nav>
+    <!-- 电话弹窗背景 -->
+    <div class="black_overlay">
+        <div class="phoneBox">
+            <p>0826-1234567</p>
+            <button>立即拨号</button>
+        </div>
+    </div>
+
+    <div class="banner"></div>
+    <!-- teacherList -->
+    <ul class="teacherList">
+        <li>
+            <div class="teacherPic pic1"></div>
+            <div class="teacherDisc">
+                <p class="teacherName">谈老师<span>/JavaEE金牌讲师</span></p>
+                <p class="discTxt">Oracle大学金牌认证讲师，系统架构师，技术专家，毕业于武汉工程大学，多年软件开发、教学培训的经验。曾经就职于唐璜科技,过内著名Ti培训机构</p>
+            </div>
+        </li>
+        <li>
+            <div class="teacherPic pic2"></div>
+            <div class="teacherDisc">
+                <p class="teacherName">孙老师<span>/UI视觉设计金牌导师</span></p>
+                <p class="discTxt">Oracle大学金牌认证讲师，系统架构师，技术专家，毕业于武汉工程大学，多年软件开发、教学培训的经验。曾经就职于唐璜科技,过内著名Ti培训机构</p>
+            </div>
+        </li>
+        <li>
+            <div class="teacherPic pic3"></div>
+            <div class="teacherDisc">
+                <p class="teacherName">万老师<span>/Web资深讲师</span></p>
+                <p class="discTxt">Web/H5前端开发。架构师，技术专家，毕业于武汉工程大学，多年软件开发、教学培训的经验。曾经就职于唐璜科技,过内著名Ti培训机构</p>
+            </div>
+        </li>
+        <li>
+            <div class="teacherPic pic4"></div>
+            <div class="teacherDisc">
+                <p class="teacherName">谈老师<span>/JavaEE金牌讲师</span></p>
+                <p class="discTxt">Oracle大学金牌认证讲师，系统架构师，技术专家，毕业于武汉工程大学，多年软件开发、教学培训的经验。曾经就职于唐璜科技,过内著名Ti培训机构</p>
+            </div>
+        </li>
+    </ul>
+    <!-- footer -->
+    <div class="copyright">
+        版权所有：杭州天眼教育咨询有限公司 浙ICP备110489号码
+    </div>
+    <footer>
+        <a class="tab" href="./audition.html">
+            <div class="tabimg t1"></div>
+            <span>申请试听</span>
+        </a>
+
+        <a class="tab  phone" href="javascrpt:">
+            <div class="tabimg t2"></div>
+            <span>电话咨询</span>
+        </a>
+
+        <a class="tab" href="mailto:1796490137@qq.com">
+            <div class="tabimg t3"></div>
+            <span>在线咨询</span>
+        </a>
+    </footer>
+    <script src="../oracle/js/phone.js"></script>
+</body>
+
+</html>

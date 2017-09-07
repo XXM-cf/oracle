@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- 移动端适配 -->
+    <script>
+        var deviceWidth = document.documentElement.clientWidth;
+        document.documentElement.style.fontSize = deviceWidth / 7.5 + 'px';
+        //设计稿基于iphone6，宽度为750px，body的width为750px / 100 = 7.5rem
+        //1px=0.01
+    </script>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/header_footer.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header></header>
+    <nav>
+        <a href="./index.html" class="homeBtn">
+            <div class="home" id="home"></div>
+        </a>
+        <span><a href="./job.html">就业</a></span>
+        <span><a href="./course.html">课程</a></span>
+        <span><a href="./Teachers.html">师资</a></span>
+        <span><a href="./environment.html">环境</a></span>
+        <span><a href="./about.html">我们</a></span>
+    </nav>
+    <!-- 电话弹窗背景 -->
+    <div class="black_overlay">
+        <div class="phoneBox">
+            <p>0826-1234567</p>
+            <button>立即拨号</button>
+        </div>
+    </div>
+
+    <!-- banner -->
+    <div class="banner">
+        <ul class="bannerList">
+            <li class="banner_list"> </li>
+            <li class="banner_list"> </li>
+            <li class="banner_list"> </li>
+        </ul>
+        <div class="dot">
+            <span class="dot_items dot_itemsActive"></span>
+            <span class="dot_items"></span>
+            <span class="dot_items"></span>
+        </div>
+    </div>
+    <!-- items -->
+    <div class="items">
+        <a href=""><img src="../oracle/images/home/icon_18.png" alt="">
+            <span>PHP工程师</span></a>
+        <a href=""><img src="../oracle/images/home/icon_20.png" alt="">
+            <span>JAVAEE</span></a>
+        <a href=""><img src="../oracle/images/home/icon_22.png" alt="">
+            <span>UI设计师傅</span></a>
+        <a href=""><img src="../oracle/images/home/icon_24.png" alt="">
+            <span>H5全栈工程师</span></a>
+        <a href=""><img src="../oracle/images/home/icon_30.png" alt="">
+            <span>云计算Linux</span></a>
+        <a href=""><img src="../oracle/images/home/icon_31.png" alt="">
+            <span>大数据</span></a>
+        <a href=""><img src="../oracle/images/home/icon_32.png" alt="">
+            <span>4G开发工程师</span></a>
+        <a href=""><img src="../oracle/images/home/icon_33.png" alt="">
+            <span>UE交互设计</span></a>
+    </div>
+    <!-- news -->
+    <div class="allNews">
+        <div class="newsTab">
+            <span class="news_tab news_active">公司新闻</span>
+            <span class="news_tab">行业动态</span>
+        </div>
+        <ul class="newsList myList listActive">
+            <li>来自JAVA学员的一封感谢信</li>
+            <li>前端125班就业平均起薪1万</li>
+            <li>天眼教育2017年就业率再创新高</li>
+            <li>125班赵伽楠同时受到腾讯 阿里等企业的offer</li>
+
+        </ul>
+        <ul class="industryNewsList myList">
+            <li>灵眼科技获得1亿美元C轮融资</li>
+            <li>前端125班就业平均起薪1万</li>
+            <li>天眼教育2017年就业率再创新高</li>
+            <li>125班赵伽楠同时受到腾讯 阿里等企业的offer</li>
+        </ul>
+        <div class="morecontent">[-更多-]</div>
+    </div>
+    <div class="line"></div>
+
+    <!-- content -->
+    <div class="content">
+        <div class="leftContent">
+            <div class="more"></div>
+            <div class="more"></div>
+            <div class="more"></div>
+            <div class="more"></div>
+        </div>
+        <div class="rightContent"></div>
+    </div>
+
+
+    <!-- footer -->
+    <div class="copyright">
+        版权所有：杭州天眼教育咨询有限公司 浙ICP备110489号码
+    </div>
+    <footer>
+        <a class="tab" href="./audition.html">
+            <div class="tabimg t1"></div>
+            <span>申请试听</span>
+        </a>
+
+        <a class="tab  phone" href="javascrpt:">
+            <div class="tabimg t2"></div>
+            <span>电话咨询</span>
+        </a>
+
+
+        <a class="tab" href="mailto:1796490137@qq.com">
+            <div class="tabimg t3"></div>
+            <span>在线咨询</span>
+        </a>
+    </footer>
+    <script src="../oracle/js/jquery-3.2.1.min.js"></script>
+    <script src="../oracle/js/home.js"></script>
+    <script src="../oracle/js/phone.js">
+    </script>
+</body>
+
+</html>

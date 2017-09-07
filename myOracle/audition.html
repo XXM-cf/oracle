@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- 移动端适配 -->
+    <script>
+        var deviceWidth = document.documentElement.clientWidth;
+        document.documentElement.style.fontSize = deviceWidth / 7.5 + 'px';
+        //设计稿基于iphone6，宽度为750px，body的width为750px / 100 = 7.5rem
+        //1px=0.01
+    </script>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/header_footer.css">
+    <link rel="stylesheet" href="./css/audition.css">
+</head>
+
+<body>
+    <header></header>
+    <nav>
+        <a href="./index.html" class="homeBtn">
+            <div class="home" id="home"></div>
+        </a>
+        <span><a href="./job.html">就业</a></span>
+        <span><a href="./course.html">课程</a></span>
+        <span><a href="./Teachers.html">师资</a></span>
+        <span><a href="./job.html">环境</a></span>
+        <span><a href="./about.html">我们</a></span>
+    </nav>
+
+    <!-- 电话弹窗背景 -->
+    <div class="black_overlay">
+        <div class="phoneBox">
+            <p>0826-1234567</p>
+            <button>立即拨号</button>
+        </div>
+    </div>
+
+    <!-- banner -->
+    <div class="box">
+        <form action="" class="userForm">
+            <input type="text" placeholder="姓名">
+            <input type="text" placeholder="手机号">
+            <input type="text" placeholder="qq">
+            <select name="" id="sec">
+                <option value="Web前端">Web前端</option>
+                <option value="JavaEE">JavaEE</option>
+                <option value="Ui设计师">Ui设计师</option>
+                <option value="软件工程师">软件工程师</option>
+            </select>
+        </form>
+    </div>
+
+    <!-- footer -->
+    <div class="copyright">
+        版权所有：杭州天眼教育咨询有限公司 浙ICP备110489号码
+    </div>
+    <footer>
+        <a class="tab" href="./audition.html">
+            <div class="tabimg t1"></div>
+            <span>申请试听</span>
+        </a>
+
+        <a class="tab  phone" href="javascrpt:">
+            <div class="tabimg t2"></div>
+            <span>电话咨询</span>
+        </a>
+
+
+        <a class="tab" href="mailto:1796490137@qq.com">
+            <div class="tabimg t3"></div>
+            <span>在线咨询</span>
+        </a>
+    </footer>
+    <script src="../oracle/js/jquery-3.2.1.min.js"></script>
+    <script src="../oracle/js/phone.js"></script>
+</body>
+
+</html>

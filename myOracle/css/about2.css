@@ -1,0 +1,126 @@
+    .banner1 {
+        height: 2rem;
+        background: url('../images/about/ab_1.gif') no-repeat;
+        background-size: cover;
+    }
+
+    .aboutUs {
+        height: 4.88rem;
+        position: relative;
+    }
+
+    .title {
+        text-align: center;
+        height: 1.32rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .title1 {
+        margin-top: 0.5rem;
+        /* line-height: 1.32rem; */
+        font-size: 0.34rem;
+    }
+
+    .title2 {
+        font-size: 0.12rem;
+    }
+
+    .aboutUs .txt {
+        padding: 0.2rem;
+        font-size: 0.2rem;
+        line-height: 0.38rem;
+    }
+
+    .learnMore {
+        width: 2.5rem;
+        height: 0.9rem;
+        background: #c11920;
+        color: #fff;
+        font-size: 0.26rem;
+        text-align: center;
+        line-height: 0.9rem;
+        border: 0;
+        border-radius: 0.08rem;
+        position: absolute;
+        left: 50%;
+        margin-left: -1.25rem;
+    }
+
+    .banner2 {
+        height: 2rem;
+        background: url('../images/about/ab_2.gif') no-repeat;
+        background-size: cover;
+    }
+
+    .year {
+        height: 2.43rem;
+        position: relative;
+    }
+
+    .year img {
+        width: 0.81rem;
+        height: 1.72rem;
+        margin-top: 0.3rem;
+        position: absolute;
+        left: 50%;
+        margin-left: -0.4rem;
+    }
+    /* 横向展示的图文消息 */
+
+    .swiper-container {
+        width: 7.5rem;
+        height: 4.75rem;
+    }
+
+    .swiper-slide {
+        text-align: center;
+        height: 4rem;
+        width: 7.5rem;
+        position: relative;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    .swiper-slide img {
+        width: 7rem;
+        height: 3rem;
+        position: absolute;
+        top: 0;
+        /* left: 0.25rem; */
+        border-radius: 0.2rem;
+    }
+
+    .swiper-slide p {
+        font-size: 0.2rem;
+        color: #333333;
+        width: 6.5rem;
+        height: 1rem;
+        position: absolute;
+        bottom: 0;
+        left: 0.25rem;
+        text-align: center;
+    }
+    /* banner3 */
+
+    .banner3 {
+        height: 2rem;
+        background: url('../images/about/ab_5.gif') no-repeat;
+        background-size: cover;
+    }
+
+    .ul2 {
+        margin-bottom: 2rem;
+    }

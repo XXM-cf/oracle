@@ -1,0 +1,39 @@
+.box {
+    width: 7.5rem;
+    border-top: 0.01rem solid #8c8c8c;
+    padding-top: 0.58rem;
+}
+
+.userForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.userForm input {
+    width: 6.38rem;
+    height: 0.9rem;
+    box-sizing: border-box;
+    border: 0.03rem solid #8c8c8c;
+    margin: 0 auto;
+    margin-bottom: 0.24rem;
+    padding-left: 0.2rem;
+}
+
+.userForm input::-webkit-input-placeholder {
+    font-size: 0.3rem;
+    color: #c8c8c8;
+    line-height: 0.9rem;
+}
+
+#sec {
+    width: 6.38rem;
+    height: 0.9rem;
+    border: 0.01rem solid #8c8c8c;
+    margin: 0 auto;
+    margin-bottom: 0.24rem;
+    font-size: 0.3rem;
+    color: #7a7a7a;
+    line-height: 0.9rem;
+}

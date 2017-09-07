@@ -1,0 +1,25 @@
+.banner {
+    height: 2rem;
+    background: url('../images/course/banner.jpg') no-repeat;
+    background-size: cover;
+}
+
+.pic1 {
+    background: url('../images/course/java.gif') no-repeat;
+    background-size: cover;
+}
+
+.pic2 {
+    background: url('../images/course/ui.gif') no-repeat;
+    background-size: cover;
+}
+
+.pic3 {
+    background: url('../images/course/h5.gif') no-repeat;
+    background-size: cover;
+}
+
+.pic4 {
+    background: url('../images/course/4G.gif') no-repeat;
+    background-size: cover;
+}

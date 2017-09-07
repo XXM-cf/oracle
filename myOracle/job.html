@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- 移动端适配 -->
+    <script>
+        var deviceWidth = document.documentElement.clientWidth;
+        document.documentElement.style.fontSize = deviceWidth / 7.5 + 'px';
+        //设计稿基于iphone6，宽度为750px，body的width为750px / 100 = 7.5rem
+        //1px=0.01
+    </script>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/header_footer.css">
+    <link rel="stylesheet" href="./css/job.css">
+</head>
+
+<body>
+    <header></header>
+    <nav>
+        <a href="./index.html" class="homeBtn">
+            <div class="home" id="home"></div>
+        </a>
+        <span class="navActive"><a href="./job.html">就业</a></span>
+        <span><a href="./course.html">课程</a></span>
+        <span><a href="./Teachers.html">师资</a></span>
+        <span><a href="./environment.html">环境</a></span>
+        <span><a href="./about.html">我们</a></span>
+    </nav>
+
+    <!-- 电话弹窗背景 -->
+    <div class="black_overlay">
+        <div class="phoneBox">
+            <p>0826-1234567</p>
+            <button>立即拨号</button>
+        </div>
+    </div>
+
+    <!-- banner -->
+    <div class="banner"></div>
+    <!-- teacherList -->
+    <ul class="teacherList">
+        <li>
+            <div class="teacherPic pic1"></div>
+            <div class="teacherDisc">
+                <p class="teacherName">赵*楠<span>/饿了吗</span></p>
+                <p class="discTxt">e了么（ele.me）”是中国知名的在线外卖订餐平台，已经覆盖中国数千个城市，聚集了数百万家餐饮商户。饿了么为用户提供极致体验的到家服务，将7亿城镇居民接入30分钟便利生活圈</p>
+            </div>
+        </li>
+        <li>
+            <div class="teacherPic pic2"></div>
+            <div class="teacherDisc">
+                <p class="teacherName">李*辉<span>/卓越科技</span></p>
+                <p class="discTxt">卓越科技支持20+应用模块,企业可通过简单的模块增减、界面布局设置等生成APP,甚至可自定义界面及模块,目前服务行业覆盖电商、服务、教育、资讯和社交等领域</p>
+            </div>
+        </li>
+        <li>
+            <div class="teacherPic pic3"></div>
+            <div class="teacherDisc">
+                <p class="teacherName">毛*学<span>/贝贝网</span></p>
+                <p class="discTxt">贝贝网，杭州贝购科技有限公司旗下网站，创立于2014年4月，是国内领先的母婴特卖平台。贝贝网以品牌正品、独家折扣、限时抢购为特色，主要提供童装、童鞋、玩具、用品等商品的特卖服务</p>
+            </div>
+        </li>
+        <li>
+            <div class="teacherPic pic4"></div>
+            <div class="teacherDisc">
+                <p class="teacherName">刘*<span>/甲骨文</span></p>
+                <p class="discTxt">甲骨文公司，全称甲骨文股份有限公司(甲骨文软件系统有限公司)，是全球最大的企业级软件公司，总部位于美国加利福尼亚州的红木滩。1989年正式进入中国市场。2013年，甲骨文已超越 IBM ，成为继 Microsoft
+                    后全球第二大软件公司
+                </p>
+            </div>
+        </li>
+    </ul>
+    <!-- footer -->
+    <div class="copyright">
+        版权所有：杭州天眼教育咨询有限公司 浙ICP备110489号码
+    </div>
+    <footer>
+        <a class="tab" href="./audition.html">
+            <div class="tabimg t1"></div>
+            <span>申请试听</span>
+        </a>
+
+        <a class="tab  phone" href="javascrpt:">
+            <div class="tabimg t2"></div>
+            <span>电话咨询</span>
+        </a>
+
+
+        <a class="tab" href="mailto:1796490137@qq.com">
+            <div class="tabimg t3"></div>
+            <span>在线咨询</span>
+        </a>
+    </footer>
+    <script src="../oracle/js/jquery-3.2.1.min.js"></script>
+    <script src="../oracle/js/phone.js"></script>
+
+</body>
+
+</html>

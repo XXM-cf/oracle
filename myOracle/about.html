@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- 移动端适配 -->
+    <script>
+        var deviceWidth = document.documentElement.clientWidth;
+        document.documentElement.style.fontSize = deviceWidth / 7.5 + 'px';
+        //设计稿基于iphone6，宽度为750px，body的width为750px / 100 = 7.5rem
+        //1px=0.01
+    </script>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/about2.css">
+    <link rel="stylesheet" href="./css/header_footer.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="../oracle/css/swiper.min.css">
+    <style>
+        img {
+            width: 7.2rem;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header></header>
+    <nav>
+        <a href="./index.html" class="homeBtn">
+            <div class="home" id="home"></div>
+        </a>
+        <span><a href="./job.html">就业</a></span>
+        <span><a href="./course.html">课程</a></span>
+        <span><a href="./Teachers.html">师资</a></span>
+        <span><a href="./environment.html">环境</a></span>
+        <span class="navActive"><a href="./about.html">我们</a></span>
+    </nav>
+    <!-- 电话弹窗背景 -->
+    <div class="black_overlay">
+        <div class="phoneBox">
+            <p>0826-1234567</p>
+            <button>立即拨号</button>
+        </div>
+    </div>
+
+    <div class="banner1"></div>
+    <div class="aboutUs">
+        <div class="title">
+            <p class="title1">集团介绍</p>
+            <p class="title2">INTRODUCTION</p>
+        </div>
+        <p class="txt">
+            Oracle公司，经过37年的发展，已成为全球最大的信息管理软件和服务供应商。2005年以来，甲骨文公司耗资近400亿美元并购了各大软件厂商。2009年，甲骨文又以74亿美元并购了Sun公司。 全球500强企业有98%在使用Oracle技术，中国排名前20位的银行，所有的电信运营商（中国移动、中国联通、中国电信）都在使用Oracle技术
+        </p>
+        <button class="learnMore">查看更多</button>
+    </div>
+    <div class="banner2"></div>
+    <div class="year">
+        <img src="./images/about/ab_3.gif" alt="">
+    </div>
+    <!-- <div class="abpic"> -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="./images/about/ab_4.gif" alt="">
+                <p>2016年，天眼在杭州下城区电子商务中心成立---新天地基地， 环境更优良，规模更宏大！
+                </p>
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/about/ab_4.gif" alt="">
+                <p>2016年，天眼在杭州下城区电子商务中心成立---新天地基地， 环境更优良，规模更宏大！
+                </p>
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/about/ab_4.gif" alt="">
+                <p>2016年，天眼在杭州下城区电子商务中心成立---新天地基地， 环境更优良，规模更宏大！
+                </p>
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/about/ab_4.gif" alt="">
+                <p>2016年，天眼在杭州下城区电子商务中心成立---新天地基地， 环境更优良，规模更宏大！
+                </p>
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/about/ab_4.gif" alt="">
+                <p>2016年，天眼在杭州下城区电子商务中心成立---新天地基地， 环境更优良，规模更宏大！
+                </p>
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/about/ab_4.gif" alt="">
+                <p>2016年，天眼在杭州下城区电子商务中心成立---新天地基地， 环境更优良，规模更宏大！
+                </p>
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <!-- <div class="swiper-pagination"></div> -->
+    </div>
+    <!-- </div> -->
+    <div class="banner3"></div>
+    <div class="title">
+        <p class="title1">荣誉资质</p>
+        <p class="title2">INTRODUCTION</p>
+    </div>
+    <!-- <div class="abpic"> -->
+    <div class="swiper-container Ul2">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="./images/about/ab_6.gif" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/about/ab_6.gif" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/about/ab_6.gif" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/about/ab_6.gif" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/about/ab_6.gif" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/about/ab_6.gif" alt="">
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <!-- <div class="swiper-pagination"></div> -->
+    </div>
+    <!-- footer -->
+    <div class="copyright">
+        版权所有：杭州天眼教育咨询有限公司 浙ICP备110489号码
+    </div>
+    <footer>
+        <a class="tab" href="./audition.html">
+            <div class="tabimg t1"></div>
+            <span>申请试听</span>
+        </a>
+        <a class="tab  phone" href="javascrpt:">
+            <div class="tabimg t2"></div>
+            <span>电话咨询</span>
+        </a>
+        <a class="tab" href="mailto:1796490137@qq.com">
+            <div class="tabimg t3"></div>
+            <span>在线咨询</span>
+        </a>
+    </footer>
+    <script src="../oracle/js/jquery-3.2.1.min.js"></script>
+    <!-- <script src="../oracle/js/about.js"></script> -->
+    <script src="../oracle/js/phone.js"></script>
+    <!-- Swiper JS -->
+    <script src="../oracle/js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            slidesPerView: 1,
+            paginationClickable: true,
+            spaceBetween: 0,
+            freeMode: true
+        });
+    </script>
+
+</body>
+
+</html>
